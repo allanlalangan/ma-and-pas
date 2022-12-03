@@ -1,9 +1,9 @@
 const Header = () => {
   return (
-    <header>
-      <h2 className='text-red-500'>Ma and Pa&apos;s</h2>
+    <header className='flex w-full justify-between bg-zinc-200'>
+      <h1 className='font-chivo text-3xl font-bold italic'>laBodega</h1>
       <nav>
-        <h2>Nav</h2>
+        <h2 className='font-heading text-xl font-semibold italic'>Nav</h2>
       </nav>
     </header>
   );
