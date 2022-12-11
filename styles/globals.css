@@ -5,6 +5,7 @@
 
 @layer base {
   body {
+    @apply bg-orange-100;
     font-family: 'Didact Gothic', sans-serif;
   }
 }

@@ -1,7 +1,9 @@
 const Hero = () => {
   return (
     <section>
-      <h2 className='font-heading italic font-semibold text-xl'>Hero</h2>
+      <h2 className="bg-teal-900 flex min-h-[80vh] items-center justify-center font-heading text-xl font-semibold italic">
+        Hero
+      </h2>
     </section>
   );
 };
