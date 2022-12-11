@@ -1,7 +1,9 @@
 const Featured = () => {
   return (
     <section>
-      <h2 className='bg-orange-50 h-[50vh] font-heading text-xl font-semibold italic'>Featured</h2>
+      <h2 className="h-[50vh] bg-orange-50 p-2 font-heading text-xl font-semibold">
+        Featured
+      </h2>
     </section>
   );
 };

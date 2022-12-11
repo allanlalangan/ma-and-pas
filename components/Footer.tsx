@@ -2,7 +2,9 @@ const Footer = () => {
   Footer;
   return (
     <footer>
-      <h2 className='bg-teal-900 font-heading text-xl font-semibold italic'>Footer</h2>
+      <h2 className="bg-stone-800 p-2 font-heading text-xl font-semibold text-orange-50">
+        Footer
+      </h2>
     </footer>
   );
 };
