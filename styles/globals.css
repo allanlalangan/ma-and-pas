@@ -12,7 +12,7 @@
 
 @layer base {
   body {
-    @apply bg-stone-800 text-amber-100;
+    @apply bg-emerald-900 text-amber-50;
     font-family: 'Rasa', sans-serif;
     font-size: 18px;
   }
