@@ -12,7 +12,6 @@
 
 @layer base {
   body {
-    @apply bg-amber-50 text-stone-800;
     font-family: 'Red Hat Display', sans-serif;
   }
 }
