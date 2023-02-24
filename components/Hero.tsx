@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<section className='lg:flex'>
 			<article className='mt-4 lg:w-1/3'>
-				<h1 className='font-display text-8xl text-teal-900'>
+				<h1 className='font-brand text-8xl text-teal-900'>
 					MOM{` `}
 					<br className='hidden lg:block' />& PA&apos;s
 				</h1>
