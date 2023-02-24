@@ -4,9 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				display: ['"Avango"', 'serif'],
-				heading: ['"Playfair Display"', 'sans-serif'],
-				body: ['"Rasa"', 'sans-serif'],
+				brand: ['"Avango"', 'serif'],
 			},
 		},
 	},
