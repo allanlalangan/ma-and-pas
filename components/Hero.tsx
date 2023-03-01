@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import heroImage from '../public/assets/rabie-madaci-skx1Rn6LW9I-unsplash.jpg';
+import heroImage from '../public/assets/roman-kraft-ChSJFIAEoRM-unsplash.jpg';
 
 const Hero = () => {
 	return (
