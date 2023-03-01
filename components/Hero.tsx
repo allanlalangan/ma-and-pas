@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import heroImage from '../public/assets/rabie-madaci-skx1Rn6LW9I-unsplash.jpg';
+import heroImage from '../public/assets/roman-kraft-ChSJFIAEoRM-unsplash.jpg';
 
 const Hero = () => {
 	return (
-		<section className='lg:flex'>
-			<article className='mt-4 flex flex-col lg:w-1/3'>
+		<section className='min-h-screen lg:flex'>
+			<article className='flex flex-col pt-4 lg:w-1/3'>
 				<h1 className='-z-10 font-brand text-8xl text-teal-900'>
 					<span>MOM </span>
 					<br className='hidden lg:block' />
@@ -16,7 +16,7 @@ const Hero = () => {
 			</article>
 			<figure className='lg:w-2/3'>
 				<Image
-					className='h-96 object-cover lg:h-[85vh]'
+					className='object-cover lg:h-screen'
 					src={heroImage}
 					alt='vintage furniture'
 				/>
