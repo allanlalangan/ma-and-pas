@@ -10,7 +10,35 @@ const Product: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main className='min-h-screen'>
-				<h2>Product 555</h2>
+				<h2 className='text-2xl'>Product Page</h2>
+				<article className='mx-32 grid grid-cols-12 gap-4 bg-amber-100 bg-opacity-50 p-8'>
+					<h3 className='col-span-12'>Product Name</h3>
+					<figure className='col-span-6 row-span-2 flex h-[70vh] items-center justify-center border border-teal-900'>
+						<figcaption>IMG</figcaption>
+					</figure>
+					<section className='col-span-6'>
+						<p className='col-span-12'>Category</p>
+						<p className=''>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+							suscipit consequatur et reiciendis commodi voluptate in vel eaque,
+							totam possimus.
+						</p>
+					</section>
+					<section className='col-span-6'>
+						<article>
+							<p className='text-2xl'>$420.69</p>
+							<p className='italic'>3 Currently In Stock</p>
+							<p>Shipping Weight: 69lbs</p>
+							<p>SKU 123456789</p>
+						</article>
+						<button className='bg-teal-900 p-4 text-stone-100'>
+							Add To Cart
+						</button>
+						<button className='bg-teal-900 p-4 text-stone-100'>
+							Save To Wishlist
+						</button>
+					</section>
+				</article>
 			</main>
 		</>
 	);
