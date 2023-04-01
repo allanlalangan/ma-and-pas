@@ -5,11 +5,11 @@ import { products } from '../public/data';
 const NewProducts = () => {
 	console.log(products);
 	return (
-		<section className='flex min-h-[90vh] flex-col bg-stone-900 p-8 text-amber-50'>
-			<h2 className='p-2 font-brand text-8xl font-semibold uppercase text-amber-500'>
+		<section className='flex min-h-[90vh] flex-col bg-amber-50 p-8'>
+			<h2 className='p-2 font-brand text-8xl font-semibold uppercase text-teal-900'>
 				Latest Finds
 			</h2>
-			<ul className='grid h-full grid-cols-12 gap-4 p-4'>
+			{/* <ul className='grid h-full grid-cols-12 gap-4 p-4'>
 				{products?.slice(0, 4).map((product, i) => (
 					<li
 						key={i}
@@ -29,7 +29,7 @@ const NewProducts = () => {
 						</figure>
 					</li>
 				))}
-			</ul>
+			</ul> */}
 		</section>
 	);
 };
