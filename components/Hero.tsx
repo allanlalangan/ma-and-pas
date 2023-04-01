@@ -18,14 +18,14 @@ const Hero = () => {
 					An assortment of unique peices collected over the years
 				</p>
 			</article>
-			<figure className='relative flex px-12 pb-12 md:w-2/3 lg:w-full'>
+			<figure className='relative flex w-full px-12 pb-12'>
 				<Image
 					className='object-cover lg:h-[75vh] lg:w-2/3'
 					src={heroImage}
 					alt='vintage furniture'
 				/>
 				<Image
-					className='absolute right-12 top-96 w-1/3 object-cover'
+					className='absolute right-12 -bottom-12 w-1/3 object-cover'
 					src={heroImage2}
 					alt='vintage furniture'
 				/>
