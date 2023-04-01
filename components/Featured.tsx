@@ -2,13 +2,15 @@ import Link from 'next/link';
 
 const Featured = () => {
 	return (
-		<section className='h-[50vh] p-2'>
-			<h2 className='font-heading text-2xl font-semibold'>Featured</h2>
+		<section className='flex min-h-[90vh] flex-col bg-teal-900 p-8 text-amber-50'>
+			<h2 className='p-2 text-right font-brand text-8xl font-semibold uppercase text-amber-500'>
+				Timeless Threads
+			</h2>
 			<Link
-				className='border-b border-stone-900 border-opacity-0 font-semibold transition hover:border-b hover:border-opacity-100'
+				className='w-fit border-b border-amber-50 border-opacity-0 font-semibold transition hover:border-opacity-100'
 				href='/products'
 			>
-				View More
+				View All Products
 			</Link>
 		</section>
 	);
