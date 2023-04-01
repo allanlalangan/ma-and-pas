@@ -3,12 +3,12 @@ import Link from 'next/link';
 const Header = () => {
 	const title = '';
 	return (
-		<header className='fixed flex min-h-[6vh] w-full items-stretch justify-between bg-amber-50'>
+		<header className='fixed z-10 flex min-h-[6vh] w-full items-stretch justify-between bg-amber-50'>
 			<Link
 				className='flex items-center justify-center px-2 font-brand text-2xl uppercase text-teal-900'
 				href='/'
 			>
-				Home
+				Mom & Pa&apos;s
 			</Link>
 
 			<section className='flex items-center justify-center px-1 text-stone-800'>
