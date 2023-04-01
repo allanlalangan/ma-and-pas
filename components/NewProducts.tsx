@@ -5,8 +5,10 @@ import { products } from '../public/data';
 const NewProducts = () => {
 	console.log(products);
 	return (
-		<section className='flex flex-col bg-stone-900 text-amber-50'>
-			<h2 className='font-heading p-2 text-2xl font-semibold'>Latest Finds</h2>
+		<section className='flex min-h-[90vh] flex-col bg-stone-900 p-8 text-amber-50'>
+			<h2 className='p-2 font-brand text-8xl font-semibold uppercase text-amber-500'>
+				Latest Finds
+			</h2>
 			<ul className='grid h-full grid-cols-12 gap-4 p-4'>
 				{products?.slice(0, 4).map((product, i) => (
 					<li

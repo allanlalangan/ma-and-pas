@@ -4,7 +4,7 @@ import heroImage from '../public/assets/roman-kraft-ChSJFIAEoRM-unsplash.jpg';
 const Hero = () => {
 	return (
 		<section className='min-h-screen lg:flex'>
-			<article className='flex flex-col pt-4 lg:w-1/3'>
+			<article className='flex flex-col p-4 pt-4 lg:w-1/3'>
 				<h1 className='-z-10 font-brand text-8xl text-teal-900'>
 					<span>MOM </span>
 					<br className='hidden lg:block' />

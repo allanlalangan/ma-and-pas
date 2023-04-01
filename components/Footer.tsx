@@ -1,11 +1,9 @@
 const Footer = () => {
-  Footer;
-  return (
-    <footer>
-      <h2 className="bg-stone-800 p-2 font-heading text-xl font-semibold text-orange-50">
-        Footer
-      </h2>
-    </footer>
-  );
+	Footer;
+	return (
+		<footer className='min-h-[30vh]'>
+			<h2 className='font-heading p-2 text-xl font-semibold'>Footer</h2>
+		</footer>
+	);
 };
 export default Footer;
