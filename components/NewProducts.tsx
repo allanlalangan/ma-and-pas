@@ -6,7 +6,7 @@ const NewProducts = () => {
 	console.log(products);
 	return (
 		<section className='flex min-h-[90vh] flex-col bg-amber-50 p-8'>
-			<h2 className='p-2 font-brand text-8xl font-semibold uppercase text-teal-900'>
+			<h2 className='p-2 font-brand text-7xl font-semibold uppercase text-teal-900 lg:text-8xl'>
 				Latest Finds
 			</h2>
 			{/* <ul className='grid h-full grid-cols-12 gap-4 p-4'>
